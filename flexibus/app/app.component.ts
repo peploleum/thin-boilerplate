@@ -3,8 +3,6 @@
     OnInit,
     ComponentResolver,
     ViewContainerRef,
-    ComponentFactory,
-    ComponentMetadata
 } from '@angular/core';
 import {GuiPart} from './gui-part';
 import {GuiManagerService} from './gui-manager.service';
