@@ -13,6 +13,10 @@ import * as components from './index';
     styleUrls: ['app/app.component.css'],
     providers: [GuiManagerService]
 })
+// 1 - inject component anywhere in tabs
+// 2 - inter component communication
+// 3 - polymer panel resize & flexbox
+// 4 - navbar / sidebar
 export class AppComponent implements OnInit {
     title = 'Flexibus';
 

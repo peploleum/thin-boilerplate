@@ -12,7 +12,7 @@ export class GuiManagerService {
         this.guiManager.addGuiPart(new ExampleTwoPart());
     }
 
-    getGuiParts() {
+    getGuiParts(): GuiPart[] {
         return this.guiManager.guiParts;
     }
 }
